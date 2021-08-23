@@ -1,0 +1,28 @@
+name: My first workflow
+on:
+  push: 
+    branches: 
+      - master
+
+jobs:
+  build: 
+    runs-on: ubuntu-latest
+    steps:
+      
+      # initializing
+      - name: Initiation message
+      - run: echo preparing to install
+
+      # Installing
+      - name: Installing
+      - run: npm install
+
+      # Building
+      - name: Building
+      - run: npm run build
+
+      # Confirmation
+      - name: Confirming
+      - run: echo all done!
+
+
