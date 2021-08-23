@@ -20,14 +20,14 @@ jobs:
 
       # Installing
       - name: Installing
-      - run: npm install
+        run: npm install
 
       # Building
       - name: Building
-      - run: npm run build
+        run: npm run build
 
       # Confirmation
       - name: Confirming
-      - run: echo all done!
+        run: echo all done!
 
 
