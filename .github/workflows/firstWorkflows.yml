@@ -16,7 +16,7 @@ jobs:
       
       # initializing
       - name: Initiation message
-      - run: echo preparing to install
+        run: echo preparing to install
 
       # Installing
       - name: Installing
